@@ -72,8 +72,7 @@ header, footer {
 }
 /* Блок Почему, Варианты десертов */
 .about {
-  max-width: 1337px;
-  padding: 50px 0;
+  padding: 30px 15px 20px 15px;
 }
 .about, .desserttype, .makinganorder, .pastrycook {
   background-color: #eee;
@@ -124,6 +123,9 @@ header, footer {
   background-color: var(--color1);
 }
 /* Как заказать */
+.makinganorder {
+  padding: 5px 0 0 0;
+}
 .makinganorder h5 {
   padding: 25px;
   border: 7px inset var(--color1);
@@ -139,11 +141,13 @@ header, footer {
 .wac_img {
   max-width: 260px;
 }
+/* Отзывы */
+.myreview {
+padding: 5px 0 30px 0;
+}
 /* Подвал */
 #footer {
-  max-width: 1337px;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  padding: 10px 15px 20px 15px;
 }
 #footertext {
   font-size: 25px;
