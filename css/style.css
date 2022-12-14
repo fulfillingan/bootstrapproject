@@ -71,6 +71,10 @@ header, footer {
   height: 100%;
 }
 /* Блок Почему, Варианты десертов */
+.about {
+  max-width: 1337px;
+  padding: 50px 0;
+}
 .about, .desserttype, .makinganorder, .pastrycook {
   background-color: #eee;
 }
@@ -136,8 +140,10 @@ header, footer {
   max-width: 260px;
 }
 /* Подвал */
-.footer {
-  padding: 50px 0;
+#footer {
+  max-width: 1337px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 #footertext {
   font-size: 25px;
